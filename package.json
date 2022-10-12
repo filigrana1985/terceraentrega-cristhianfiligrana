@@ -1,0 +1,25 @@
+{
+  "name": "club_deportivo_celtic",
+  "version": "1.0.0",
+  "description": "Proyecto Final de Desarrollo Web de Coderhouse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filigrana1985/proyectofinal-cristhianfiligrana.git"
+  },
+  "author": "Cristhian Andres Filigrana Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filigrana1985/proyectofinal-cristhianfiligrana/issues"
+  },
+  "homepage": "https://github.com/filigrana1985/proyectofinal-cristhianfiligrana#readme",
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
